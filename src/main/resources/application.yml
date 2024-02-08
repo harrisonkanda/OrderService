@@ -1,0 +1,16 @@
+
+ server:
+   port: 8085
+ spring:
+   application:
+     name: thread-excutor-service
+   datasource:
+     url: jdbc:postgresql://localhost:5490/Amson
+     username: postgres
+     password: 1234567890
+     driver-class-name: org.postgresql.Driver
+   jpa:
+     database-platform: org.hibernate.dialect.PostgreSQLDialect
+     show-sql: true
+     hibernate:
+       ddl-auto: create
